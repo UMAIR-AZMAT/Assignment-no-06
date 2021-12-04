@@ -1,0 +1,338 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  overflow-x: hidden;
+}
+#topofsite {
+  background-color: black;
+}
+#topseconcol {
+  color: white;
+  font-size: 10px !important;
+  padding: 10px;
+}
+#topthrdcol {
+  color: white;
+  font-size: 10px !important;
+  padding: 10px;
+}
+#topfrdcol {
+  color: white;
+  font-size: 10px !important;
+  padding: 10px;
+}
+/*------------------------------------------*/
+#header {
+  border: px solid green;
+  width: 100%;
+  height: 100vh;
+  background-image: url(Path\ 1.png);
+  background-size: 80% 100%;
+  background-repeat: no-repeat;
+}
+
+.transparentALetter {
+  border: px solid black;
+  width: 100%;
+  height: 100%;
+  background-image: url(a.png);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 10%;
+}
+
+/*------------------------------------------*/
+#navBar {
+  border: px solid red;
+  display: flex;
+  justify-content: space-between;
+  padding: 0% 4%;
+}
+
+#navBar .logo {
+  border: px solid red;
+  display: flex;
+  align-items: center;
+}
+
+#navBar .logo h1 {
+  border: px solid green;
+  font-size: 2.5vw;
+  color: #fff;
+}
+
+.navLinks {
+  border: px solid green;
+  display: flex;
+  align-items: center;
+}
+
+.navLinks ul {
+  display: flex;
+  list-style: none;
+}
+
+.navLinks ul li {
+  border: px solid orange;
+  padding: 10px;
+}
+
+.navLinks ul li a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #fff;
+}
+
+.tryForFreeButtonDiv {
+  border: px solid green;
+  display: flex;
+  align-items: center;
+}
+
+.tryForFreeButton {
+  border: none;
+  width: 100px;
+  font-size: 14px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #d54800;
+  color: #fff;
+  cursor: pointer;
+}
+
+/*--------------------------------------------------*/
+
+.compiesLogochild {
+  border: px solid red;
+  margin-bottom: 15vh;
+}
+
+.compiesLogochild .eachCompany {
+  border: px solid green;
+  display: flex;
+  justify-content: center;
+}
+
+.eachCompany img {
+  width: 80%;
+  margin: auto;
+  border: px solid green;
+  cursor: pointer;
+}
+
+/*------------------------------------------*/
+
+.headerContent {
+  border: px solid black;
+  padding: 0vh 7%;
+  margin-top: 15vh;
+  margin-right: 0px;
+}
+
+.headerText {
+  border: px solid green;
+  color: #fff;
+}
+
+.headerText p {
+  font-size: 10px;
+}
+
+.headerText h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+@media (max-width: 1100px) {
+  .headerText h1 {
+    font-size: calc(3vw + 1rem);
+  }
+
+  #navBar .logo h1 {
+    font-size: calc(2vw + 1rem);
+  }
+}
+
+.headerText h2 {
+  font-size: 16px;
+}
+
+.headerText h3 {
+  font-size: 24px;
+}
+
+.buttons {
+  border: px solid black;
+  margin-top: 50px;
+}
+
+.tryForFreeButton2 {
+  border: 1px solid #fff;
+  padding: 5px 10px;
+  border-radius: 25px;
+  background-color: transparent;
+  color: #fff;
+  margin-right: 15px;
+}
+
+.seePlansOffersButton {
+  border: 1px solid #fff;
+  padding: 5px 10px;
+  border-radius: 25px;
+  color: #fb644b;
+  box-shadow: 0px 10px 20px 1px rgba(0, 0, 0, 0.2);
+}
+
+/*-----------------------------------------------------------*/
+
+.headerImages {
+  border: px solid green;
+  position: relative;
+}
+
+.headerImages .img1 {
+  border: 3px solid #fe5858;
+  position: absolute;
+  top: -5%;
+  right: 3%;
+  width: 300px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 10px 20px 1px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.headerImages .img1:hover {
+  z-index: 1;
+  width: 310px;
+}
+
+.headerImages .img2 {
+  border: 3px solid #fe5858;
+  position: absolute;
+  top: 89%;
+  left: 18%;
+  width: 250px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 10px 20px 1px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.headerImages .img2:hover {
+  width: 260px;
+}
+
+.whiteBox {
+  border: 2px solid #fff;
+  width: 100px;
+  height: 230px;
+  position: absolute;
+  right: 7%;
+  top: 6%;
+  width: 300px;
+}
+
+.redBox {
+  border: 2px solid #fe5858;
+  position: absolute;
+  width: 250px;
+  height: auto;
+  right: 7%;
+  bottom: -45%;
+  height: 200px;
+}
+
+/*--------------------------------------------*/
+#head1 {
+  font-family: Poppins-Medium;
+  font-size: 2.5rem;
+}
+#parah1 {
+  font-size: small;
+}
+#cardhead {
+  color: orange;
+  font-family: Poppins-Medium;
+}
+#cardparah {
+  font-size: small;
+  padding: 20px;
+  color: gray;
+}
+#cardbtn {
+  background-color: orange;
+  color: white;
+  font-weight: 400;
+  border: orange solid;
+  border-radius: 50px;
+}
+#carddiv1 {
+  background-color: orange;
+  color: white;
+  border-color: orange;
+}
+#carddiv2 {
+  background-color: gainsboro;
+  color: gray;
+  border-color: grey;
+  border: grey dotted;
+}
+#jumhead {
+  font-size: 25px;
+  font-weight: 100;
+  color: black;
+}
+#jumparah {
+  font-size: 15px;
+  color: gray;
+  margin-top: 15px;
+}
+#jumbtn {
+  border-radius: 30px;
+  margin-top: 15px;
+}
+#jumbtm {
+  color: black;
+  font-size: 5px;
+}
+#cardbtn2 {
+  background: white;
+  color: orangered;
+}
+.checked {
+  color: orange;
+}
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  border-radius: 0;
+}
+.carousel-inner {
+  padding: 1em;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #e1e1e1;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
